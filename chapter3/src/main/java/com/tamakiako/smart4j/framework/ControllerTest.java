@@ -11,7 +11,7 @@ public class ControllerTest {
     @Autowired
     private ServiceTest serviceTest;
 
-    @Action(value = "GET:/hi")
+    @Action(value = "get:/hi")
     public Object sayHi(){
         return new Object();
     }

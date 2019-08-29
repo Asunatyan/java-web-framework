@@ -11,8 +11,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Controller {
-    /**
-     * 请求类型与路径
-     */
-    String value();
+
 }

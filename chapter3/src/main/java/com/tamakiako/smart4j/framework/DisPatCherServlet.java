@@ -24,7 +24,7 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(urlPatterns = "/", loadOnStartup = 0)
+@WebServlet(urlPatterns = "/*", loadOnStartup = 0)
 public class DisPatCherServlet extends HttpServlet {
     @Override
     public void init(ServletConfig config) throws ServletException {
